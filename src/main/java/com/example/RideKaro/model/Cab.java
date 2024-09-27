@@ -14,6 +14,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Entity
 public class Cab {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
